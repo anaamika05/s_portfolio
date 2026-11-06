@@ -19,6 +19,40 @@
 :root{--charcoal:#202124;--grey:#414141;--bronze:#B78650;--cream:#F5EFE5;--white:#fff;--muted:#77736d;--line:#ddd5ca}
 .hero{min-height:660px;gap:4%;}.hero-copy{padding-left:1vw}.hero-role{line-height:1.9;max-width:610px}.hero-intro{max-width:520px;line-height:1.85}.hero-note{letter-spacing:.08em}.about-content{gap:7%;}.about-photo{height:440px}.about-text{line-height:1.9}.quick-facts{gap:48px}.expertise-grid{grid-template-columns:repeat(4,1fr);margin-top:48px}.expertise-card{min-height:220px;padding:28px 24px}.expertise-card h3{font-family:var(--sans);font-size:17px;font-weight:600;line-height:1.35;margin:24px 0 12px}.expertise-card p{line-height:1.75}.timeline{margin-top:48px}.timeline-body p:last-child{line-height:1.85}.results-section{background:#252629;color:#fff;padding:105px 0}.results-inner{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px 8%;align-items:end}.results-inner>.section-heading{grid-column:1}.results-grid{grid-column:2;grid-row:1;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.result-card{border:1px solid #555;padding:25px 20px;min-height:165px;display:flex;flex-direction:column;justify-content:space-between}.result-card span{font-size:9px;letter-spacing:.15em;color:#c89b69;font-weight:700}.result-card strong{font-family:var(--serif);font-size:42px;color:#fff;font-weight:500;line-height:1.1}.result-card p{font-size:11px;color:#bcb7af;margin:0}.results-note{grid-column:2;color:#a9a39b;font-size:10px;margin:0}.recognition-section{padding-top:100px;padding-bottom:100px}.dark-subtitle{color:#77736d}.recognition-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:45px}.recognition-grid article{border:1px solid var(--line);padding:24px 25px;min-height:140px;background:#fff}.recognition-grid article>span{font-size:9px;letter-spacing:.15em;color:var(--bronze);font-weight:700}.recognition-grid h3{font-size:16px;line-height:1.4;margin:18px 0 6px}.recognition-grid p{font-size:11px;color:#777;margin:0}.athlete-tags,.opportunity-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.athlete-tags span{border:1px solid #565656;color:#e1d6c8;padding:9px 12px;font-size:10px}.achievement-highlight{height:350px}.achievement-list{overflow-x:auto}.achievement-row{grid-template-columns:45px minmax(230px,2fr) minmax(100px,.9fr) 65px 120px}.athlete-feature{display:grid;grid-template-columns:180px 1fr 180px;gap:28px;align-items:center;margin-top:48px;padding-top:35px;border-top:1px solid #4b4b4b}.athlete-feature img{height:170px;object-fit:cover}.athlete-feature span{font-size:9px;letter-spacing:.16em;color:#c89b69;font-weight:700}.athlete-feature h3{font-family:var(--serif);font-size:25px;font-weight:500;margin:10px 0}.athlete-feature p{font-size:12px;color:#bdb8b0;line-height:1.8;margin:0;max-width:520px}.education-grid{gap:8%}.credentials{padding:35px 38px}.opportunity-tags{margin-top:25px}.opportunity-tags span{border:1px solid #d2c5b5;padding:8px 12px;font-size:10px;color:#5e574f}.contact-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.button-outline{border:1px solid #b8aa99;color:var(--charcoal)}.button-outline span{color:var(--bronze)}.contact-links{margin-top:42px}
 @media(max-width:1000px){.expertise-grid{grid-template-columns:repeat(2,1fr)}.results-inner{grid-template-columns:1fr;gap:35px}.results-inner>.section-heading,.results-grid,.results-note{grid-column:1;grid-row:auto}.recognition-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* GCC executive direction: a deeper navy base, restrained gold accents, and sharper presentation. */
+:root{--charcoal:#071a33;--grey:#29415d;--bronze:#c8a05a;--cream:#f3efe7;--white:#fff;--muted:#6d7885;--line:#d7dce1}
+body{background:#fff;color:var(--charcoal)}
+.site-header{background:rgba(7,26,51,.96);border-bottom-color:rgba(255,255,255,.12);color:#fff}
+.brand{color:#fff}.brand span{color:var(--bronze)}
+.nav-links a:hover,.nav-links a.active{color:var(--bronze)}
+.nav-contact{border-color:rgba(255,255,255,.3)}
+.nav-contact span{color:var(--bronze)}
+.menu-toggle{color:#fff}
+.hero{max-width:none;width:100%;padding-left:max(4.5vw,40px);padding-right:max(4.5vw,40px);background:var(--charcoal);color:#fff;overflow:hidden}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(200,160,90,.25);border-radius:50%;right:-190px;top:-150px}
+.hero:after{content:"";position:absolute;width:280px;height:280px;border:1px solid rgba(200,160,90,.18);border-radius:50%;right:-25px;top:15px}
+.hero-copy{padding-left:0}.hero .eyebrow,.hero-note{color:#d5c9b4}.hero-role{color:#c3ccd5}.hero-intro{color:#c3ccd5}.hero-role span{color:var(--bronze)}
+h1{letter-spacing:-.08em}.hero h1 em{color:var(--bronze)}
+.button-dark{background:var(--bronze);color:var(--charcoal)}.button-dark span{color:var(--charcoal)}
+.text-link{color:#fff}.hero-visual{z-index:1}.portrait-frame{background:#193452}.portrait-frame:after{border-color:rgba(200,160,90,.65)}.portrait-caption{color:#d5c9b4}.vertical-word{color:var(--bronze)}
+.hero-bottom{color:#a7b2bf}.scroll-line{background:#3b4e63}
+.intro-band{background:var(--bronze);color:var(--charcoal)}.intro-band .eyebrow{color:var(--charcoal)}.intro-statement em{color:#fff}
+.section-heading h2,.contact-inner h2{color:var(--charcoal)}
+.section-heading h2 em,.contact-inner h2 em{color:var(--bronze)}
+.about-photo{background:#193452}.about-text{color:#607080}.about-text .lead{color:var(--charcoal)}
+.quick-facts{border-top-color:var(--line)}.quick-facts strong{color:var(--bronze)}
+.dark-section,.results-section,.achievements-section{background:var(--charcoal)}
+.dark-section{border-top:1px solid #163250}.expertise-grid{background:#23415d;border-color:#23415d}.expertise-card{background:var(--charcoal)}.expertise-card:hover{background:#0d2b4d}.card-number,.soft-skills span{color:var(--bronze)}.soft-skills span{border-color:#3c5670}
+.timeline{border-top-color:var(--line)}.timeline-body{border-left-color:var(--line)}.leadership-note{background:var(--cream)}
+.results-section{border-top:1px solid #163250}.result-card{border-color:#35516d}.result-card span,.recognition-grid article>span{color:var(--bronze)}
+.recognition-grid article{border-color:var(--line);box-shadow:0 12px 30px rgba(7,26,51,.06)}
+.achievement-highlight{border:1px solid #36506b}.achievement-stats,.achievement-list,.athlete-feature{border-color:#36506b}
+.education-main article{border-left-color:var(--line)}.credentials{background:var(--cream)}
+.contact-section{background:var(--cream)}.opportunity-tags span{border-color:#c8b99f;color:var(--charcoal)}.button-outline{border-color:#9b8d78}
+.contact-links{border-top-color:#d0c5b6}.contact-links a,.contact-links div{border-bottom-color:#d0c5b6}.contact-links span{color:var(--bronze)}.footer-brand{color:var(--charcoal)}
+@media(max-width:850px){.nav-links{background:var(--charcoal);border-bottom-color:#28435e}.hero{padding-left:20px;padding-right:20px}.hero:before{right:-260px}.hero:after{right:-100px}}
+@media(max-width:560px){.hero{padding-left:20px;padding-right:20px}.hero-copy{padding-top:30px}}
 @media(max-width:850px){.hero{gap:25px}.athlete-feature{grid-template-columns:130px 1fr 130px;gap:18px}.athlete-feature img{height:145px}.results-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:560px){.hero{gap:35px}.expertise-grid{grid-template-columns:1fr}.expertise-card{min-height:160px}.results-section{padding:75px 0}.results-grid{grid-template-columns:1fr;gap:10px}.result-card{min-height:125px}.recognition-section{padding-top:75px;padding-bottom:75px}.recognition-grid{grid-template-columns:1fr}.recognition-grid article{min-height:115px}.athlete-tags span{font-size:9px}.athlete-feature{grid-template-columns:1fr 1fr;gap:12px}.athlete-feature div{grid-column:1/-1;grid-row:1}.athlete-feature img{height:160px;width:100%}.achievement-row{min-width:690px}.contact-actions .button{width:100%;justify-content:space-between}.contact-links{margin-top:32px}}
 
@@ -115,4 +149,66 @@
   .contact-links a,.contact-links div{font-size:10px;padding:15px 0}
   .contact-links span{font-size:7px}
   .contact-inner footer{font-size:7px}
+}
+
+/* Final phone layout: collapse the navigation and content into a readable single column. */
+@media(max-width:560px){
+  html{scroll-padding-top:72px}
+  .site-header{height:72px;padding:0 16px;background:rgba(7,26,51,.98);border-bottom-color:rgba(255,255,255,.14)}
+  .brand{font-size:21px}
+  .menu-toggle{display:block;color:#fff;font-size:25px;line-height:1;padding:5px;background:transparent;cursor:pointer}
+  .nav-links{display:none;position:absolute;top:72px;left:0;right:0;z-index:60;padding:18px 20px 22px;background:var(--charcoal);border-bottom:1px solid #28435e;align-items:stretch;gap:0;white-space:normal;font-size:11px;letter-spacing:.1em}
+  .nav-links.open{display:flex}
+  .nav-links a{width:100%;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav-links .nav-contact{border:0;border-bottom:1px solid rgba(255,255,255,.1);padding:12px 0}
+  .hero{grid-template-columns:1fr;gap:30px;padding:45px 16px 70px}
+  .hero-copy{padding:0}
+  h1{font-size:clamp(44px,12.5vw,52px);letter-spacing:-.09em}
+  .hero-role{font-size:10px;line-height:1.7}
+  .hero-intro{font-size:14px;line-height:1.7}
+  .hero-actions{flex-wrap:wrap;gap:18px}
+  .hero-actions .button{padding:13px 15px;font-size:10px}
+  .hero-actions .text-link{font-size:10px}
+  .hero-note{display:flex;font-size:8px;margin-top:35px}
+  .hero-visual{height:360px;width:100%;margin:0}
+  .portrait-frame{inset:0 25px 28px 0}
+  .portrait-caption{left:0;right:25px;font-size:7px}
+  .hero-bottom{display:none}
+  .intro-grid,.about-content,.achievement-top,.education-grid{grid-template-columns:1fr}
+  .intro-band{padding:42px 0}
+  .intro-statement{font-size:28px}
+  .section{padding:78px 0}
+  .section-heading h2,.contact-inner h2{font-size:clamp(40px,11vw,56px)}
+  .about-content{gap:28px}
+  .about-photo{height:300px;width:100%;border-radius:0;justify-self:stretch}
+  .about-text{font-size:13px;line-height:1.75}
+  .about-text .lead{font-size:20px;line-height:1.45}
+  .quick-facts{gap:20px}
+  .quick-facts strong{font-size:25px}
+  .quick-facts span{font-size:9px}
+  .dark-section,.achievements-section{padding:78px 0}
+  .expertise-grid{grid-template-columns:1fr;gap:1px}
+  .expertise-card{min-height:0;padding:24px}
+  .expertise-card h3{font-size:18px;margin:16px 0 8px}
+  .expertise-card p{font-size:12px;line-height:1.65}
+  .soft-skills span{font-size:8px;padding:7px 9px}
+  .timeline-item{grid-template-columns:1fr;gap:8px}
+  .timeline-date{font-size:9px}
+  .timeline-body h3{font-size:22px}
+  .timeline-body p:last-child{font-size:12px;line-height:1.7}
+  .results-inner{display:block}
+  .results-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:28px}
+  .result-card{min-height:130px}
+  .recognition-grid{grid-template-columns:1fr}
+  .recognition-grid article{min-height:120px}
+  .achievement-highlight{height:260px}
+  .achievement-stats{gap:20px}
+  .achievement-stats strong{font-size:28px}
+  .achievement-stats span{font-size:8px}
+  .achievement-list{overflow-x:auto}
+  .athlete-feature{grid-template-columns:1fr 1fr}
+  .education-main h3,.credentials h3{font-size:20px}
+  .education-main p,.credentials ul{font-size:11px}
+  .contact-actions .button{width:100%;justify-content:space-between}
+  .contact-links{grid-template-columns:1fr}
 }
