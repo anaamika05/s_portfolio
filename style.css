@@ -212,3 +212,78 @@ h1{letter-spacing:-.08em}.hero h1 em{color:var(--bronze)}
   .contact-actions .button{width:100%;justify-content:space-between}
   .contact-links{grid-template-columns:1fr}
 }
+
+/* Compact spacing pass: keep the page visually connected between sections. */
+@media(min-width:561px){
+  .section{padding-top:88px;padding-bottom:88px}
+  .dark-section,.results-section,.achievements-section{padding-top:82px;padding-bottom:82px}
+  .intro-band{padding-top:46px;padding-bottom:46px}
+  .about-content{margin-top:42px}
+  .expertise-grid,.recognition-grid{margin-top:38px}
+  .timeline{margin-top:36px}
+  .achievement-stats{margin-top:38px;margin-bottom:26px}
+  .athlete-feature{margin-top:34px;padding-top:26px}
+  .education-grid{margin-top:36px}
+  .contact-section{padding-top:78px}
+  .results-inner{grid-template-columns:1fr 1.2fr;align-items:start}
+  .results-inner>.section-heading h2{font-size:clamp(48px,4.5vw,60px)}
+}
+
+@media(max-width:560px){
+  .hero{padding-top:34px;padding-bottom:48px;gap:22px}
+  .hero-note{margin-top:24px}
+  .intro-band{padding-top:30px;padding-bottom:30px}
+  .section{padding-top:52px;padding-bottom:52px}
+  .dark-section,.results-section,.achievements-section{padding-top:52px;padding-bottom:52px}
+  .section-heading h2,.contact-inner h2{margin-bottom:12px}
+  .about-content{margin-top:18px;gap:20px}
+  .expertise-grid,.recognition-grid{margin-top:24px}
+  .timeline{margin-top:24px}
+  .achievement-stats{margin-top:28px;margin-bottom:22px;padding:20px 0}
+  .athlete-feature{margin-top:28px;padding-top:22px}
+  .education-grid{margin-top:24px}
+  .contact-section{padding-top:52px;padding-bottom:18px}
+}
+
+/* Unified compact layout for all sections. */
+@media(min-width:561px){
+  .hero{min-height:620px;padding-top:35px;padding-bottom:60px}
+  .hero-copy{padding-top:10px;padding-bottom:10px}
+  .hero-note{margin-top:42px}
+  .intro-band{padding:32px 0}
+  .section{padding:64px 0}
+  .dark-section,.results-section,.achievements-section{padding:60px 0}
+  .section-heading h2,.contact-inner h2{margin-bottom:16px}
+  .about-content{margin-top:28px}
+  .quick-facts{margin-top:24px;padding-top:16px}
+  .expertise-grid,.recognition-grid{margin-top:28px}
+  .timeline{margin-top:28px}
+  .leadership-note{margin-top:22px}
+  .achievement-top{gap:7%}
+  .achievement-stats{margin:28px 0 20px;padding:20px 0}
+  .athlete-feature{margin-top:24px;padding-top:20px}
+  .education-grid{margin-top:28px}
+  .contact-section{padding:58px 0 24px}
+  .contact-links{margin-top:30px}
+  .education-grid{grid-template-columns:1.15fr .85fr;column-gap:4%;row-gap:28px}
+  .credentials{padding:28px 30px}
+}
+
+@media(max-width:560px){
+  .hero{padding-top:26px;padding-bottom:36px;gap:18px}
+  .hero-note{margin-top:18px}
+  .intro-band{padding:24px 0}
+  .section{padding:36px 0}
+  .dark-section,.results-section,.achievements-section{padding:38px 0}
+  .section-heading h2,.contact-inner h2{margin-bottom:10px}
+  .about-content{margin-top:14px;gap:16px}
+  .quick-facts{margin-top:16px;padding-top:12px}
+  .expertise-grid,.recognition-grid{margin-top:18px}
+  .timeline{margin-top:18px}
+  .leadership-note{margin-top:16px}
+  .achievement-stats{margin:20px 0 16px;padding:16px 0}
+  .athlete-feature{margin-top:18px;padding-top:16px}
+  .education-grid{margin-top:18px}
+  .contact-section{padding:38px 0 16px}
+  .contact-links{margin-top:22px}
+}
